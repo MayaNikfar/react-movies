@@ -1,0 +1,45 @@
+.poster{
+    border-radius: 10px;
+    height: 80vh;
+}
+.App {
+
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .movies-list {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+  }
+  .movies-list > * {
+    min-height: 33vw;
+    flex-basis: 33.3%;
+  }
+  .movie-card {
+    background-size:cover;
+    min-height: 80vh;
+    color: white;
+    text-shadow: 0 0 2px black;
+    transition: transform 2;
+
+  }
+  .movie-card:hover{
+    transform: scale(1); 
+    transition-duration: 4s;
+  }
+  .movie-card h2{
+    background-size: cover;
+    padding: 0.5em 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 0 0;
+    margin-top: -730px;
+    
+  }
+
+  .movie-card p{
+    padding: 0.5em 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
